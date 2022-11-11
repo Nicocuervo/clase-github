@@ -1,0 +1,306 @@
+/*reset */
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	overflow-x: hidden;
+    
+}
+
+
+/* color de todo el texto de todo el sitio */
+html{
+    color: #02132b;
+}
+
+/*header estilo */
+
+header nav ul {
+    list-style: none;
+    padding: 25px;
+}
+header a {
+    text-decoration: none;
+	color: rgb(80, 156, 226);
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* fin header estilo */
+
+.estiloNav{
+    font-size: 20px;
+}
+
+/* Estilo Nav */
+.estiloNav li {
+	display: inline;
+	padding: 10px;
+	margin: 5px;
+	
+}
+
+.navBackground {
+	background-color:black;
+	position: sticky;
+	top: 0px;
+    display: flex;
+    justify-content: space-between;
+	
+}
+
+/* fin estilo nav */
+
+
+/* Titulo principal */
+h1{
+
+	font-size: 80px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-align: center;
+	margin-top: 100px;
+	padding: 55px;
+	background-color: rgba(255,255,255, 0.7);
+}
+
+/* Imagen de Portada */
+.img-port{
+    height: 400px;
+    width: auto;
+    background-image: url(../img/puerto.jpg); 
+    background-repeat: no-repeat; 
+    background-position: right; 
+    background-size: cover; 
+   
+}
+section{
+    margin-top: 30px;
+}
+
+/* SERVICIO IMPO*/
+.serv-impo{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+
+/* IMAGEN DE SERVICIO IMPO */
+.img-impo{
+   
+    background-image: url(../img/import.jpg);
+    background-repeat: none;
+    background-position: center; 
+    height: 400px;
+    background-size: cover; 
+}
+/* IMAGEN DE SERVICIO EXPO */
+.img-expo{
+   
+    background-image: url(../img/export.jpg);
+    background-repeat: none;
+    background-position: center; 
+    height: 400px;
+    background-size: cover; 
+}
+/* SERVICIO EXPO */
+.serv-expo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+/* parallax */
+.parallax {
+
+    background-image: url("../img/puerto.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     
+    padding: 80px;
+    margin-bottom: 50px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.parallax h3 {
+	font-size: 4rem; 
+	text-align: center; 
+	background-color: rgba(255,255,255, 0.7);
+	padding-top: 20px;
+	margin-top: 50px;  
+}
+
+.parallax p {
+	text-align: justify; 
+	background-color: rgba(255,255,255, 0.7);
+	text-transform: capitalize;
+	padding: 10px;
+    font-size: 20px;
+}
+
+/* footer */
+footer{
+    height: 30px;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.socialMedia, footer h3, footer a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+h4{
+    margin-top: 10px ;
+    padding: 10px;
+}
+
+
+/*formulario contacto */
+.formulario{
+    margin: 35px 35px 35px 35px;
+    padding: 20px;
+    height: 350px;
+    display: flex;
+    justify-content:center;
+    font-size: 25px;
+    font-family: 'Barlow Semi Condensed', sans-serif;   
+}
+
+/* Pagina Expo */
+.positionExpo{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:darkgrey;
+     
+}
+
+.descExpo {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-left: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.descExpo p, .descExpo h2{
+    margin-top: 20px;
+}
+
+.contDescExpo{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-left: 20px;
+    padding: 20px;
+    width: 800px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.contDescExpo h3{
+    text-align: center;
+}
+
+/* Video */
+.videoComex {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*boton impo y expo */
+
+div p button{
+    margin-top: 20px;
+    display: block;
+    font-size: 20px;
+    
+}
+
+div p button a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+.positionDesc {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:darkgrey;
+}
+.contDesc p{
+    margin-top: 20px;
+}
+
+/* Pagina Impo */
+
+.positionImpo{
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:darkgrey;
+     
+}
+
+.descImpo {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-left: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contDescImpo {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-left: 20px;
+    padding: 20px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   justify-content: center;
+}
+
+/* Pagina Logistica */
+
+.positionLogi {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:darkgrey;
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+.positionLogi p{
+    margin: 20px 20px 20px 40px;
+    display: block;
+    width: 600px;
+    text-align: justify;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
